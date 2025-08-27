@@ -1,0 +1,90 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Verdana, Georgia;
+    background-color: #d0c9c9;
+    color: #000000;
+    line-height: 1.6;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #9c867b;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Header */
+#header {
+    background-color: #14554a;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Navigation */
+#nav {
+    background-color: #023025;
+    text-align: center;
+    padding: 10px;
+}
+#nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+#nav a:focus,
+#nav a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.content section,
+.content aside {
+    flex: 1 1 300px;
+}
+
+/* Grid for Menu */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Images */
+.responsive-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+h2:hover { 
+  color: #14554a; 
+}
